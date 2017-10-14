@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
         int sdk=android.os.Build.VERSION.SDK_INT;
         if (sdk>=23){
             Intent intent=new Intent(this,PermissionActivity.class);
-
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             Bundle bundle=new Bundle();
             bundle.putStringArray("permission",PERMISSIONS);
