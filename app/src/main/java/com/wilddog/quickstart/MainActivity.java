@@ -6,9 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Log;
-import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.wilddog.client.SyncReference;
@@ -17,8 +15,7 @@ import com.wilddog.wilddogauth.WilddogAuth;
 import com.wilddog.wilddogauth.core.Task;
 import com.wilddog.wilddogauth.core.listener.OnCompleteListener;
 import com.wilddog.wilddogauth.core.result.AuthResult;
-import com.wilddog.wilddogcore.WilddogApp;
-import com.wilddog.wilddogcore.WilddogOptions;
+import com.wilddog.wilddogauth.model.WilddogUser;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -37,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             Manifest.permission.RECORD_AUDIO,
             Manifest.permission.CAMERA
     };
+    @BindView(R.id.phone) EditText et_phone;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +54,29 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @OnClick(R.id.btn_register)
+    public void register() {
+        String phone = et_phone.getText().toString();
+        String password = "password123";
+        auth = WilddogAuth.getInstance();
+        auth.createUserWithPhoneAndPassword(phone, password)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete( Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            // 获取用户
+                            WilddogUser user = task.getResult().getWilddogUser();
+                            Log.d("result",user.toString());
+                            Toast.makeText(MainActivity.this,"注册成功，请直接登陆即可!",Toast.LENGTH_SHORT).show();
+                        }
+                        else{
+                            // 错误处理
+                            Log.d("result",task.getException().toString());
+
+                        }
+                    }
+                });
+    }
     @OnClick(R.id.btn_login_anonymously)
     public void login() {
         if(isInlogin){return;}
@@ -66,8 +87,9 @@ public class MainActivity extends AppCompatActivity {
         //还可以选择其他登录方式
         //auth.signInWithEmailAndPassword();
         //auth.signInWithCredential();
-        //auth.signInWithCustomToken();
-        auth.signInAnonymously().addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        String phone = et_phone.getText().toString();
+        String password = "password123";
+        auth.signInWithPhoneAndPassword(phone,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(Task<AuthResult> task) {
                 if (task.isSuccessful()) {
@@ -78,9 +100,10 @@ public class MainActivity extends AppCompatActivity {
                     //本示例采用根节点下的[users] 节点作为用户列表存储节点
                     Map<String, Object> map = new HashMap<String, Object>();
                     map.put(uid, true);
-                    SyncReference userRef=WilddogSync.getInstance().getReference("users");
+                    SyncReference userRef= WilddogSync.getInstance().getReference("users");
                     userRef.updateChildren(map);
                     userRef.child(uid).onDisconnect().removeValue();
+                    Log.e("test",uid);
                     if (!TextUtils.isEmpty(uid)) {
                         Intent intent = new Intent(getApplicationContext(), ConversationActivity.class);
                         startActivity(intent);
@@ -96,6 +119,35 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+//        auth.signInAnonymously().addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+//            @Override
+//            public void onComplete(Task<AuthResult> task) {
+//                if (task.isSuccessful()) {
+//                    //身份认证成功
+//                    String uid = auth.getCurrentUser().getUid();
+//                    //用户可以使用任意自定义节点来保存用户数据，但是不要使用 [wilddogVideo]节点存放私有数据
+//                    //以防和Video SDK 数据发生冲突
+//                    //本示例采用根节点下的[users] 节点作为用户列表存储节点
+//                    Map<String, Object> map = new HashMap<String, Object>();
+//                    map.put(uid, true);
+//                    SyncReference userRef=WilddogSync.getInstance().getReference("users");
+//                    userRef.updateChildren(map);
+//                    userRef.child(uid).onDisconnect().removeValue();
+//                    if (!TextUtils.isEmpty(uid)) {
+//                        Intent intent = new Intent(getApplicationContext(), ConversationActivity.class);
+//                        startActivity(intent);
+//                        isInlogin = false;
+//                        finish();
+//                    }
+//                } else {
+//                    //处理失败
+//                    //throw new RuntimeException("auth 失败" + task.getException().getMessage());
+//                    Log.e("error",task.getException().getMessage());
+//                    Toast.makeText(MainActivity.this,"登录失败!",Toast.LENGTH_SHORT).show();
+//                    isInlogin = false;
+//                }
+//            }
+//        });
     }
     @Override protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);

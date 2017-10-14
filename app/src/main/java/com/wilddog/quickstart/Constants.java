@@ -5,6 +5,8 @@ package com.wilddog.quickstart;
  */
 
 public class Constants {
-    public static final String VIDEO_APPID = <Your Video APPID>;
-    public static final String SYNC_APPID = <Your SYNC APPID>;
+    public static final String VIDEO_APPID = "wd4744228031zhaxyq";
+    public static final String SYNC_APPID =  "wd9178732604gvkuzu";
+//    wd9178732604gvkuzu.wilddogio.com|
+
 }

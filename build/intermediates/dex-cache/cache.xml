@@ -3,39 +3,237 @@
 
     <item
         is-multidex="false"
-        jar="/home/fly/.android/build-cache/7c91e026c35458fd97cae42673d0a93ed990632c/output/jars/classes.jar"
+        jar="C:\Users\sun\.android\build-cache\b06ad59c1dbc846125c7290d3379517e4a4b7c11\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="0f0dc347ca44aea2eaed9e5fa2bd49c02700a998">
-        <dex dex="/opt/wilddogsdk/video-demo-android-conversation/app/build/intermediates/pre-dexed/debug/classes_527da0fd0f19345d7ee4f0992f032a1b543994ff.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/opt/wilddogsdk/video-demo-android-conversation/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8055259114a32ee5642fe8dfcbf45742d0d0824f">
-        <dex dex="/opt/wilddogsdk/video-demo-android-conversation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f47698b92829b6d49cf881e7a12d9432a5d51797/classes.dex" />
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_cceebd1d2da823ffd8943d22611c5dab0b434564.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/fly/.android/build-cache/f640fb7a12d627324413b4944ac41129b7e42850/output/jars/classes.jar"
+        jar="C:\Users\sun\.android\build-cache\6eef564128f2b3ef21bb110235d1075478cbdcb9\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="1980909cc28edaec2a51b34002c09610fe57ce74">
-        <dex dex="/opt/wilddogsdk/video-demo-android-conversation/app/build/intermediates/pre-dexed/debug/classes_e7ac1937ad05505def27447bfea1dd73e6492b1a.jar" />
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_03fa4de9070af7694afafc4d45d4be12bf2f53a0.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/opt/wilddogsdk/video-demo-android-conversation/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\sun\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/opt/wilddogsdk/video-demo-android-conversation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9cecc3b8d7bdf887afbd3477b083d532104df7a3/classes.dex" />
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.2_625557f4d76fb0ba6e91ffe5b65005852c0ee34f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.gradle\caches\modules-2\files-2.1\io.socket\engine.io-client\0.8.3\854b49396e1e9f9bb0ab025062ddb49c4ed65ca1\engine.io-client-0.8.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="854b49396e1e9f9bb0ab025062ddb49c4ed65ca1">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\engine.io-client-0.8.3_37796c41d8946f0bdfa9c6490733b5d860adaf40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.2_cc6196ae3eeffe62a50e104cdbf65d8e0593ab3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.gradle\caches\modules-2\files-2.1\com.wilddog.client\wilddog-common-android\2.0.2\5e48817ef166ae4e9d6e58e3e86ec24f5e27f63d\wilddog-common-android-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e48817ef166ae4e9d6e58e3e86ec24f5e27f63d">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\wilddog-common-android-2.0.2_7c5ea316e795cdf12b8146440386d28f9836678c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.android\build-cache\c8b7778846ce7752da5e0729024f80c0620dd30d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0f0dc347ca44aea2eaed9e5fa2bd49c02700a998">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_ad20a3e710b9a6120aa87e4c914599e01f63b3e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.android\build-cache\ba8b147d7f5bfa206078b73776e45fe3a1cf7ebf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_ab0b68873dae740415ab405eac1d51fdf1cfe54b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_f2bbf838df5d65f771223d9e6f2df247b5350bec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.2_bc742ace028180c714b70a7a30d06a92b3773003.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.android\build-cache\de05e6838d617e34fd3cf43005eaba1d588cb55b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_0867910afb480200eb220a88bac23ab1e12d2a4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_2d5d2da140f3a50e8356370a284f216f6194acde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.android\build-cache\ec6bbb79a751a5b6f1b3703636248a30b6db0b7d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_8abbfc33f804892e2e20d5e42cd2f387bb736712.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.gradle\caches\modules-2\files-2.1\com.wilddog.client\wilddog-sync-android\2.3.7\79ef4310058971c7e314abc1c1301b07ef7f7489\wilddog-sync-android-2.3.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="79ef4310058971c7e314abc1c1301b07ef7f7489">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\wilddog-sync-android-2.3.7_c1363d0d19f79fb20b9d0a600976acb9104fec8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.gradle\caches\modules-2\files-2.1\io.socket\socket.io-client\0.8.2\96fd0e4a99e71d688b7267e12d2a5a137519d92e\socket.io-client-0.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="96fd0e4a99e71d688b7267e12d2a5a137519d92e">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\socket.io-client-0.8.2_8f924564ee4fbb95298691e54619839a1d2c8ad9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.android\build-cache\047737ede26b3d1de34c664a88d079c190562c3c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_b2d34d11e0b90ff035f21be3a305a395fad9e9d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.android\build-cache\11be97ad08dd0b63dbb4198bd9a10de39b908d92\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_87cc0c10e170ee4e639ee778ba99f5722473d78b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\okio-1.13.0_d75c23cafd229f48c014b8fba0904ecf45fa35be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.1\constraint-layout-solver-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.1_6ed72967cca5110da27bf943a5c31a9adf20fa32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.android\build-cache\a3c5dfe723379db94e5b8e981d697397413e919f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_836e689f2bf89c65c6462ebee18e83343d82fca4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.android\build-cache\791e205a9a11a8995c9e7f0560dc1eb359014135\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_e6770065fcc5b027fb75ef901b74e5bb55f17050.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.android\build-cache\090265842dec58d8ff442dff4a2e0f3b6c296698\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_f7c79658f56d921ac5725936722e6c6e39931e1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.android\build-cache\7ee46b7fa9f5450b4359ad84d65d8f64058f544a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_21776de3b055c70f555cf42c88fbe3feae04135e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.android\build-cache\6b46386edb66a717fda66a3f533202026f7b33f7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="393d47289f3acd30ff2f34f01c21aaede2c6fff6">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_066a8f2424c6933603851a09775f15a2f8395e21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.android\build-cache\c35de3309efc48f5ac5c7cdd9a97208871ff5dc3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\classes_705e5a3ce1c12c378c5bab9654ce3cc68e8b1547.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sun\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.1\4d060ca3190df0eda4dc13415532a12e15ca5f11\okhttp-3.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4d060ca3190df0eda4dc13415532a12e15ca5f11">
+        <dex dex="F:\my_workpace_as\video-demo-android-conversation\app\build\intermediates\pre-dexed\debug\okhttp-3.8.1_eaca4ec979ae564e99d612b74d1f616e49fb8c1d.jar" />
     </item>
 
 </items>

@@ -6,6 +6,17 @@
               android:gravity="center"
               android:orientation="vertical"
               tools:context="com.wilddog.quickstart.MainActivity">
+    <EditText
+        android:id="@+id/phone"
+        style="@style/EditTextInput"
+        android:hint="请输入手机号："/>
+    <Button
+        android:id="@+id/btn_register"
+        style="@style/ButtonBlueLarge"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginTop="20dp"
+        android:text="注册"
+        />
 
     <Button
 
@@ -13,7 +24,7 @@
         style="@style/ButtonBlueLarge"
         android:layout_gravity="center|center_vertical"
         android:layout_marginTop="20dp"
-        android:text="匿名登录"
+        android:text="登录"
         />
 
 

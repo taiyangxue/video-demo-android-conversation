@@ -111,6 +111,7 @@ public class ConversationActivity extends AppCompatActivity {
     private WilddogVideoCall.Listener inviteListener = new WilddogVideoCall.Listener() {
         @Override
         public void onCalled(final Conversation conversation, String s) {
+            Log.e(TAG,"success");
             if(!TextUtils.isEmpty(s)){
                 Toast.makeText(ConversationActivity.this,"对方邀请时候携带的信息是:"+s,Toast.LENGTH_SHORT).show();
                 tvData.setText("对方携带数据为:"+s);
@@ -146,7 +147,7 @@ public class ConversationActivity extends AppCompatActivity {
 
         @Override
         public void onTokenError(WilddogVideoError wilddogVideoError) {
-
+            Log.e(TAG,"faild");
         }
 
     };
